@@ -17,9 +17,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Membuka web browser'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('')
-
+'Memperbesar layar web browser'
 WebUI.maximizeWindow()
+
+'Masuk ke link yang di tuju'
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
+'Screenshot page login'
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+'Verifikasi muncul field username'
+WebUI.verifyElementVisible(findTestObject('Login OrangeHRM/textbox_username'), FailureHandling.STOP_ON_FAILURE)
+
+'Masukkan username'
+WebUI.setText(findTestObject('Login OrangeHRM/textbox_username'), 'Admin')
+
+'Screenshot input username'
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+'Verifikasi muncul field password'
+WebUI.verifyElementVisible(findTestObject('Login OrangeHRM/textbox_password'), FailureHandling.STOP_ON_FAILURE)
+
+'Masukkan password'
+WebUI.setText(findTestObject('Login OrangeHRM/textbox_password'), 'admin123')
+
+'Screenshot input password'
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+'Verifikasi muncul tombol login'
+WebUI.verifyElementVisible(findTestObject('Login OrangeHRM/button_loginOrangeHRM'))
+
+'Verifikasi tombol login bisa di klik'
+WebUI.verifyElementClickable(findTestObject('Login OrangeHRM/button_loginOrangeHRM'))
+
+'Klik tombol login'
+WebUI.click(findTestObject('Login OrangeHRM/button_loginOrangeHRM'))
+
+'Verifikasi pindah ke halaman Dashboard'
+WebUI.verifyElementPresent(findTestObject('Page Admin or User Management/Admin or User Management/label_DashboardOrangeHRM'), 
+    30)
+
+'Screenshot berhasil login'
+WebUI.takeScreenshot()
 
