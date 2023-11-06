@@ -30,35 +30,34 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/aut
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
 'Verifikasi muncul field username'
-WebUI.verifyElementVisible(findTestObject('Login OrangeHRM/textbox_username'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Login/textbox_Username'), FailureHandling.STOP_ON_FAILURE)
 
 'Masukkan username'
-WebUI.setText(findTestObject('Login OrangeHRM/textbox_username'), 'Admin')
+WebUI.setText(findTestObject('Login/textbox_Username'), 'Admin')
 
 'Screenshot input username'
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
 'Verifikasi muncul field password'
-WebUI.verifyElementVisible(findTestObject('Login OrangeHRM/textbox_password'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Login/textbox_Password'), FailureHandling.STOP_ON_FAILURE)
 
 'Masukkan password'
-WebUI.setText(findTestObject('Login OrangeHRM/textbox_password'), 'admin123')
+WebUI.setText(findTestObject('Login/textbox_Password'), 'admin123')
 
 'Screenshot input password'
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
 'Verifikasi muncul tombol login'
-WebUI.verifyElementVisible(findTestObject('Login OrangeHRM/button_loginOrangeHRM'))
+WebUI.verifyElementVisible(findTestObject('Login/button_Login'))
 
 'Verifikasi tombol login bisa di klik'
-WebUI.verifyElementClickable(findTestObject('Login OrangeHRM/button_loginOrangeHRM'))
+WebUI.verifyElementClickable(findTestObject('Login/button_Login'))
 
 'Klik tombol login'
-WebUI.click(findTestObject('Login OrangeHRM/button_loginOrangeHRM'))
+WebUI.click(findTestObject('Login/button_Login'))
 
 'Verifikasi pindah ke halaman Dashboard'
-WebUI.verifyElementPresent(findTestObject('Page Admin or User Management/Admin or User Management/label_DashboardOrangeHRM'), 
-    30)
+WebUI.verifyElementPresent(findTestObject('Login/label_Dashboard'), 30)
 
 'Screenshot berhasil login'
 WebUI.takeScreenshot()
