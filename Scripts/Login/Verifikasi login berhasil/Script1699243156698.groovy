@@ -19,9 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.maximizeWindow()
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Login/textbox_username'), 0)
+
+WebUI.setText(findTestObject('Login/textbox_username'), GlobalVariable.username)
+
+WebUI.verifyElementPresent(findTestObject('Login/textbox_password'), 0)
+
+WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.password)
+
+WebUI.verifyElementClickable(findTestObject('Login/button_login'))
+
+WebUI.click(findTestObject('Login/button_login'))
+
+WebUI.verifyElementPresent(findTestObject('Login/label_dashboard'), 0)
 
 WebUI.closeBrowser()
 
