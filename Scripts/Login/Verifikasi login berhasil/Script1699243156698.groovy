@@ -39,5 +39,3 @@ WebUI.click(findTestObject('Login/button_login'))
 
 WebUI.verifyElementPresent(findTestObject('Login/label_dashboard'), 0)
 
-WebUI.closeBrowser()
-
