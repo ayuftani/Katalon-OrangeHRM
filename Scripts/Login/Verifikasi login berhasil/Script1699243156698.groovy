@@ -63,4 +63,3 @@ WebUI.verifyElementPresent(findTestObject('Login/label_Dashboard'), 30)
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
-
