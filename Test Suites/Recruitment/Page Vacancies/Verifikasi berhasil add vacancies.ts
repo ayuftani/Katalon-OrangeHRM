@@ -15,14 +15,26 @@
       <guid>106b83c2-a39f-47b4-a13e-6aeb7196207c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Verifikasi login berhasil</testCaseId>
+      <testCaseId>Test Cases/Login/Positive/Verifikasi login berhasil</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a00b4519-6140-404d-9262-1d426dfdb1e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7c7ad25-3859-4b6c-a51b-3454ebdf1110</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>838a0475-97a4-4bf6-a633-21c930964c79</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Recruitment/Page Vacancies/Verifikasi berhasil add vacancies</testCaseId>
+      <testCaseId>Test Cases/Recruitment/Page Vacancies/Positive/Verifikasi berhasil add vacancies</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
