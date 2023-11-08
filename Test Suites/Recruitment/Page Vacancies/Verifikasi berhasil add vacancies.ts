@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/Verifikasi login berhasil</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a00b4519-6140-404d-9262-1d426dfdb1e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7c7ad25-3859-4b6c-a51b-3454ebdf1110</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>838a0475-97a4-4bf6-a633-21c930964c79</guid>

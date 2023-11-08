@@ -33,7 +33,7 @@ WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementVisible(findTestObject('Login/textbox_Username'), FailureHandling.STOP_ON_FAILURE)
 
 'Masukkan username'
-WebUI.setText(findTestObject('Login/textbox_Username'), 'Admin')
+WebUI.setText(findTestObject('Login/textbox_Username'), 'Admin123')
 
 'Screenshot input username'
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
