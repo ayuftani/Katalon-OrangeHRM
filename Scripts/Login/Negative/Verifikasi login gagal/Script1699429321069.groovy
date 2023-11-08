@@ -42,7 +42,7 @@ WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementVisible(findTestObject('Login/textbox_Password'), FailureHandling.STOP_ON_FAILURE)
 
 'Masukkan password'
-WebUI.setText(findTestObject('Login/textbox_Password'), 'admin123')
+WebUI.setText(findTestObject('Login/textbox_Password'), 'admin1234')
 
 'Screenshot input password'
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
@@ -55,4 +55,6 @@ WebUI.verifyElementClickable(findTestObject('Login/button_Login'))
 
 'Klik tombol login'
 WebUI.click(findTestObject('Login/button_Login'))
+
+WebUI.verifyElementVisible(findTestObject('Login/label_LoginGagal'), FailureHandling.STOP_ON_FAILURE)
 
