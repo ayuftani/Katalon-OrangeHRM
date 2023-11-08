@@ -17,25 +17,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Membuka web browser'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url)
-
+'Memperbesar layar web browser'
 WebUI.maximizeWindow()
 
+'Masuk ke link yang di tuju'
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
+'Screenshot page login'
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+'Verifikasi muncul field username'
+WebUI.verifyElementVisible(findTestObject('Login/textbox_Username'), FailureHandling.STOP_ON_FAILURE)
+
+'Masukkan username'
+WebUI.setText(findTestObject('Login/textbox_Username'), 'Admin')
+
+'Screenshot input username'
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+'Verifikasi muncul field password'
+WebUI.verifyElementVisible(findTestObject('Login/textbox_Password'), FailureHandling.STOP_ON_FAILURE)
+
+'Masukkan password'
+WebUI.setText(findTestObject('Login/textbox_Password'), 'admin123')
+
+'Screenshot input password'
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+'Verifikasi muncul tombol login'
+WebUI.verifyElementVisible(findTestObject('Login/button_Login'))
+
+'Verifikasi tombol login bisa di klik'
+WebUI.verifyElementClickable(findTestObject('Login/button_Login'))
+
+'Klik tombol login'
+WebUI.click(findTestObject('Login/button_Login'))
+
+'Verifikasi pindah ke halaman Dashboard'
+WebUI.verifyElementPresent(findTestObject('Login/label_Dashboard'), 30)
+
+'Screenshot berhasil login'
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('Login/textbox_username'), 0)
-
-WebUI.setText(findTestObject('Login/textbox_username'), GlobalVariable.username)
-
-WebUI.verifyElementPresent(findTestObject('Login/textbox_password'), 0)
-
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.password)
-
-WebUI.verifyElementClickable(findTestObject('Login/button_login'))
-
-WebUI.click(findTestObject('Login/button_login'))
-
-WebUI.verifyElementPresent(findTestObject('Login/label_dashboard'), 0)
-
+WebUI.closeBrowser()
