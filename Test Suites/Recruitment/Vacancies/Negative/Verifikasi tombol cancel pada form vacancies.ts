@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Verifikasi berhasil add vacancies</name>
+   <name>Verifikasi tombol cancel pada form vacancies</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>1e16122a-f83a-478b-b89d-d43e4c4cca12</testSuiteGuid>
+   <testSuiteGuid>13a48841-e649-49b4-96af-4c397f1eacd6</testSuiteGuid>
    <testCaseLink>
-      <guid>106b83c2-a39f-47b4-a13e-6aeb7196207c</guid>
+      <guid>1f017d49-07e9-43d7-9c11-a6b32f4a5e09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/Positive/Verifikasi login berhasil</testCaseId>
@@ -31,10 +31,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>838a0475-97a4-4bf6-a633-21c930964c79</guid>
+      <guid>f0a71339-3851-4c0b-b548-9487346c0545</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Recruitment/Page Vacancies/Positive/Verifikasi berhasil add vacancies</testCaseId>
+      <testCaseId>Test Cases/Recruitment/Vacancies/Negative/Verifikasi tombol cancel pada form vacancies</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
