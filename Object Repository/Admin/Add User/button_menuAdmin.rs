@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_employeeName</name>
+   <name>button_menuAdmin</name>
    <tag></tag>
-   <elementGuidId>738c93d4-a9c9-4c4e-badb-0137e7aa8c1c</elementGuidId>
+   <elementGuidId>5b3036cd-1eba-4749-9f5b-aedd84c7aee3</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@placeholder= 'Type for hints...']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Admin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Status</name>
+   <name>textbox_employeeName</name>
    <tag></tag>
-   <elementGuidId>491294bc-5bfc-49bf-89d9-8f5941dd2144</elementGuidId>
+   <elementGuidId>738c93d4-a9c9-4c4e-badb-0137e7aa8c1c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@class=&quot;oxd-select-text-input&quot;])[2]</value>
+         <value>//input[@placeholder= 'Type for hints...']</value>
       </entry>
       <entry>
          <key>BASIC</key>
