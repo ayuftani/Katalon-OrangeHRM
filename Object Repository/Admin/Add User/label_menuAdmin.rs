@@ -3,11 +3,11 @@
    <description></description>
    <name>label_menuAdmin</name>
    <tag></tag>
-   <elementGuidId>5b3036cd-1eba-4749-9f5b-aedd84c7aee3</elementGuidId>
+   <elementGuidId>db0dc53d-534c-4c53-ab72-c9fb4c8b4da6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='Admin']</value>
+         <value>//h6[text()='Admin']</value>
       </entry>
       <entry>
          <key>BASIC</key>

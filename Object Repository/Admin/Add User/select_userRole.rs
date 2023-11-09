@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[text()= '-- Select --'])[1]</value>
+         <value>(//*[@class=&quot;oxd-select-text-input&quot;])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
