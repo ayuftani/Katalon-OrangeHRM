@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verifikasi dropdown job title tidak dipilih</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db9a4ac3-dc9a-4a8d-9e1d-79dbce61f0b9</testCaseGuid>
+</TestCaseEntity>
