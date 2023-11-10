@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verifikasi field employee name dikosongkan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c7cb49d-5ba9-41a2-9c62-a3d0d388041c</testCaseGuid>
+</TestCaseEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textbox_Password</name>
+   <name>label_requiredStatus</name>
    <tag></tag>
-   <elementGuidId>bee60f19-f53b-4398-8b3b-b818c7c10f32</elementGuidId>
+   <elementGuidId>99cd11a5-7465-481c-8d92-26c1bbf978e5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[1]/div/div[2]/input</value>
+         <value>//span[text()='Required']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

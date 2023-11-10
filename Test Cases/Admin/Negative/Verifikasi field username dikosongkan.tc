@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verifikasi field username dikosongkan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c926da78-3dfe-4b5b-ba53-ef8eacf81dcb</testCaseGuid>
+</TestCaseEntity>
