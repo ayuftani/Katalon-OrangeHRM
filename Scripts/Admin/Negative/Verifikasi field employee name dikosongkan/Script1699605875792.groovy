@@ -61,3 +61,35 @@ WebUI.sendKeys(findTestObject('Admin/Add User/select_Status'), Keys.chord(Keys.E
 
 WebUI.takeScreenshot()
 
+WebUI.verifyElementVisible(findTestObject('Admin/Add User/textbox_Username'))
+
+WebUI.setText(findTestObject('Admin/Add User/textbox_Username'), 'testing')
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Admin/Add User/textbox_Password'))
+
+WebUI.setText(findTestObject('Admin/Add User/textbox_Password'), 'testing2023')
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Admin/Add User/textbox_confirmPassword'))
+
+WebUI.setText(findTestObject('Admin/Add User/textbox_confirmPassword'), 'testing2023')
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Admin/Add User/button_Save'))
+
+WebUI.verifyElementClickable(findTestObject('Admin/Add User/button_Save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Admin/Add User/button_Save'))
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Admin/Add User/label_employeeName'), 0)
+
+WebUI.delay(10)
+
+WebUI.takeScreenshot()
+

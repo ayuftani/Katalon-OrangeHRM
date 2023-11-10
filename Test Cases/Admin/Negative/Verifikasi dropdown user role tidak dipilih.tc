@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verifikasi dropdown user role tidak dipilih</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bce48b7-83c9-4e37-9fe7-4dd3724464b1</testCaseGuid>
+</TestCaseEntity>

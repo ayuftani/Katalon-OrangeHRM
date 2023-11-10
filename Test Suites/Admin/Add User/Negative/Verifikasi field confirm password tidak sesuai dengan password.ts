@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Verifikasi berhasil pilih user role</name>
+   <name>Verifikasi field confirm password tidak sesuai dengan password</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>fbffc273-ddf1-4714-b9d1-8c7bf50485ec</testSuiteGuid>
+   <testSuiteGuid>69805e21-cf36-4492-9b0b-020f99be5956</testSuiteGuid>
    <testCaseLink>
-      <guid>768aaebf-9721-43f4-91e3-d95ecccf5f69</guid>
+      <guid>f270445b-4a13-4d76-9fa4-7999d1dd8fe5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/Positive/Verifikasi login berhasil</testCaseId>
@@ -31,10 +31,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7a73eaf1-26fd-4941-b878-9744cb99d199</guid>
+      <guid>0dad49e4-35b8-48cc-9cf1-6f09fd2c1878</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Verifikasi berhasil add user</testCaseId>
+      <testCaseId>Test Cases/Admin/Negative/Verifikasi field confirm password berbeda dengan password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
