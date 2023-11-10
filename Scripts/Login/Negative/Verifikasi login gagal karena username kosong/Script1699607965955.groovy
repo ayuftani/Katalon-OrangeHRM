@@ -33,7 +33,7 @@ WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementVisible(findTestObject('Login/textbox_Username'), FailureHandling.STOP_ON_FAILURE)
 
 'Masukkan username'
-WebUI.setText(findTestObject('Login/textbox_Username'), GlobalVariable.username)
+WebUI.setText(findTestObject('Login/textbox_Username'), '')
 
 'Screenshot input username'
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
@@ -56,9 +56,5 @@ WebUI.verifyElementClickable(findTestObject('Login/button_Login'))
 'Klik tombol login'
 WebUI.click(findTestObject('Login/button_Login'))
 
-'Verifikasi pindah ke halaman Dashboard'
-WebUI.verifyElementPresent(findTestObject('Login/label_Dashboard'), 30)
-
-'Screenshot berhasil login'
-WebUI.takeScreenshot()
+WebUI.verifyElementVisible(findTestObject('Login/label_requiredUsername'), FailureHandling.STOP_ON_FAILURE)
 
