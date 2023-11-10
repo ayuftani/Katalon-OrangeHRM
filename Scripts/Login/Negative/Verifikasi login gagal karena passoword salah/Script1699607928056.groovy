@@ -24,7 +24,7 @@ WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
 'Masuk ke link yang di tuju'
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 'Screenshot page login'
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
@@ -33,7 +33,7 @@ WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementVisible(findTestObject('Login/textbox_Username'), FailureHandling.STOP_ON_FAILURE)
 
 'Masukkan username'
-WebUI.setText(findTestObject('Login/textbox_Username'), 'Admin')
+WebUI.setText(findTestObject('Login/textbox_Username'), GlobalVariable.username)
 
 'Screenshot input username'
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
@@ -42,7 +42,7 @@ WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementVisible(findTestObject('Login/textbox_Password'), FailureHandling.STOP_ON_FAILURE)
 
 'Masukkan password'
-WebUI.setText(findTestObject('Login/textbox_Password'), 'admin1234')
+WebUI.setText(findTestObject('Login/textbox_Password'), 'ADIRA123')
 
 'Screenshot input password'
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
