@@ -5,4 +5,56 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>939eec6c-8ab4-4b09-9d55-0570433ccd9e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8de7a765-91d6-4b2f-9f66-c700ded414f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76d37c4e-2db5-4e0a-b945-87d50528204a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f27efd5f-4051-4af3-8c0f-86964983d2ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a291ea4-f16a-4b47-9721-dc424926ce5c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'natalia'</defaultValue>
+      <description></description>
+      <id>8de7a765-91d6-4b2f-9f66-c700ded414f8</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'imitisio'</defaultValue>
+      <description></description>
+      <id>76d37c4e-2db5-4e0a-b945-87d50528204a</id>
+      <masked>false</masked>
+      <name>middlename</name>
+   </variable>
+   <variable>
+      <defaultValue>'christy\t'</defaultValue>
+      <description></description>
+      <id>f27efd5f-4051-4af3-8c0f-86964983d2ab</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'000000'</defaultValue>
+      <description></description>
+      <id>3a291ea4-f16a-4b47-9721-dc424926ce5c</id>
+      <masked>false</masked>
+      <name>employeeid</name>
+   </variable>
 </TestCaseEntity>
