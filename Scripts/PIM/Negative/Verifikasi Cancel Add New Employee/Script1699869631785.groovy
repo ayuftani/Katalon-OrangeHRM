@@ -41,9 +41,9 @@ WebUI.verifyElementVisible(findTestObject('PIM/textbox_employeeId'))
 
 WebUI.setText(findTestObject('PIM/textbox_employeeId'), employeeid)
 
-WebUI.verifyElementClickable(findTestObject('PIM/button_Save'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('PIM/button_cancel'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PIM/button_Save'))
+WebUI.click(findTestObject('PIM/button_cancel'))
 
 WebUI.takeScreenshot()
 
