@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verifikasi field First Name Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>916011e6-8d1b-4bf7-a765-0660850ea27c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f498a44c-ab77-4143-94df-962afa4beb75</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5741574f-ca19-4ea2-811c-e9d6f6651ad2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5344aa91-e9b0-4360-880d-fd545d5f37ca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Oktarina'</defaultValue>
+      <description></description>
+      <id>f498a44c-ab77-4143-94df-962afa4beb75</id>
+      <masked>false</masked>
+      <name>middlename</name>
+   </variable>
+   <variable>
+      <defaultValue>'Harjo'</defaultValue>
+      <description></description>
+      <id>5741574f-ca19-4ea2-811c-e9d6f6651ad2</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'5555'</defaultValue>
+      <description></description>
+      <id>5344aa91-e9b0-4360-880d-fd545d5f37ca</id>
+      <masked>false</masked>
+      <name>employeeid</name>
+   </variable>
+</TestCaseEntity>

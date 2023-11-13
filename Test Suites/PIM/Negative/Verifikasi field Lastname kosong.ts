@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Verifikasi field Lastname kosong</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>71b981e0-8e23-41b0-9ca7-13e0e8422ade</testSuiteGuid>
+   <testCaseLink>
+      <guid>f4ca7ed0-e2d4-4ed0-ac9c-36c27faf603e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Positive/Verifikasi login berhasil</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a00b4519-6140-404d-9262-1d426dfdb1e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7c7ad25-3859-4b6c-a51b-3454ebdf1110</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>067687e1-3019-45a5-beed-b5f3a6512479</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PIM/Negative/Verifikasi field Lastname Kosong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a8577f6a-61f7-4ba7-aba9-3cc5c102677d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9f82f0d3-d61c-41fc-a934-da162c353b4a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>af1134d1-7956-4be9-8f86-89f96f78ebb0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
